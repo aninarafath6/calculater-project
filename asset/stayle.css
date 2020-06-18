@@ -4,6 +4,9 @@
 body{
   
     background:linear-gradient(45deg,rgb(212, 8, 86),rgb(255, 0, 140),rgb(212, 8, 86));
+    height: 100%;
+    display: flex;
+    overflow: hidden;
     display: flex; 
     align-items: center;
     justify-content: center;
