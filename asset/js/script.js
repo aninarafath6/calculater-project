@@ -18,6 +18,8 @@ function clearDis(){
 }
 function eqaz(){
     let nums=screen.value;
+    screen.value="";
+
   let result=eval(nums);
     screen.value=result;
 }
