@@ -75,3 +75,71 @@ border-radius: 15px;
 
     box-shadow: 2px 2px 5px #3b3b3b;
 }
+@media(max-width: 650px){
+    .calc-body{
+        width: 300px;
+        height: 500px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px #3b3b3b;
+        
+        
+    }
+    .inp{
+        padding: 20px;
+        width: 100%;
+        font-size: 20px;
+        outline: none;
+        pointer-events: none;
+        
+       
+    }
+    #inpp{
+        border: none;
+        border-bottom: 1px solid rgb(212, 8, 86);
+    }
+    .btn-1-row-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 45px;
+    margin-left: 15px;
+    margin-top: 17px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 5px #3b3b3b;
+    border: 2px solid rgb(212, 8, 86) ;
+    background-color: #ffffff15;
+    transition: .90s ease-in-out;
+    }
+    .btn-1-row{
+        padding-left: 25px 
+    }
+    .btn-1-row-btn:focus{
+        background-color: rgb(212, 8, 86) ;
+        color: #ffffff;
+    border: #ffffff15;
+    transition: .90s ease-in-out;
+    }
+    .btn-1-row-btn-k{
+        background-color: rgb(212, 8, 86) ;
+        color: #ffffff;
+    border: #ffffff15;
+    transition: .90s ease-in-out;
+    }
+    .btn-1-row-btn-k:focus{
+        color: #000000;
+        border: 2px solid rgb(212, 8, 86) ;
+        background-color: #ffffff15;
+        transition: .90s ease-in-out;
+    }
+    .hedder{
+        color: #ffffff;
+        text-align: center;
+        padding: 15px;
+        background-color:rgb(212, 8, 86 );
+    border-radius: 15px;
+    
+        box-shadow: 2px 2px 5px #3b3b3b;
+        font-size: 25px;
+    }
+}
