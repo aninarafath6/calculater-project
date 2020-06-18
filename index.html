@@ -1,36 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculater</title>
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
 
-    <link rel="stylesheet" href="asset/stayle.css">
-
-
-</head>
-<body>
-<section>
-    <div class="">
+    <link rel="stylesheet" href="asset/stayle.css" />
+  </head>
+  <body>
+    <section>
+      <h1  id="hedder" class="hedder">
+        Calculater
+      </h1>
+      <div class="">
         <div class="">
-            <div class="col-12 col-lg-12 col-md-12">
-                <div class="calc-body">
-                    
+          <div class="col-12 col-lg-12 col-md-12">
+            <div class="calc-body">
+              <div class="inp">
+                <input id="inpp" class="inp" type="text" />
+              </div>
+              <div class="row">
+                <div class="row btn-1-row col-12">
+                  <button class="btn-1-row-btn abc" onclick="clearDis()">
+                    Clear
+                  </button>
                 </div>
+                <div class="btn-1-row col-4">
+                  <button class="btn-1-row-btn" onclick="calc(7)">7</button>
+                  <button class="btn-1-row-btn" onclick="calc(8)">8</button>
+                  <button class="btn-1-row-btn" onclick="calc(9)">9</button>
+                  <button
+                    class="btn-1-row-btn btn-1-row-btn-k"
+                    onclick="calc('/')"
+                  >
+                    /
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="btn-1-row">
+                  <button class="btn-1-row-btn" onclick="calc(4)">4</button>
+                  <button class="btn-1-row-btn" onclick="calc(5)">5</button>
+                  <button class="btn-1-row-btn" onclick="calc(6)">6</button>
+                  <button
+                    class="btn-1-row-btn btn-1-row-btn-k"
+                    onclick="calc('*')"
+                  >
+                    x
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="btn-1-row">
+                  <button class="btn-1-row-btn" onclick="calc(1)">1</button>
+                  <button class="btn-1-row-btn" onclick="calc(2)">2</button>
+                  <button class="btn-1-row-btn" onclick="calc(3)">3</button>
+                  <button
+                    class="btn-1-row-btn btn-1-row-btn-k"
+                    onclick="calc('-')"
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="btn-1-row">
+                  <button class="btn-1-row-btn" onclick="calc('.')">.</button>
+                  <button class="btn-1-row-btn" onclick="calc(0)">0</button>
+                  <button class="btn-1-row-btn" onclick="eqaz()">=</button>
+                  <button
+                    class="btn-1-row-btn btn-1-row-btn-k"
+                    onclick="calc('+')"
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</section>
-    
+      </div>
+    </section>
 
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="asset/js/script.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="asset/js/script.js"></script>
   </body>
 </html>
